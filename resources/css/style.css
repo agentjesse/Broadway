@@ -2,15 +2,21 @@ body{
   font-family: Helvetica,sans-serif;
   text-align: center;
   min-width: 600px;
+  max-width: 1830px;
 }
 
 .banner a, h1, .banner2, footer a, footer{
   color: white;
 }
 
+h1, .banner2, h2, h3{
+  font-weight: bold;
+}
+
 h1{
   font-size: 70px;
-  font-weight: bold;
+  line-height: 1.4;
+  margin-bottom: 35px;
 }
 
 .banner{
@@ -21,7 +27,6 @@ h1{
 
 .banner2{
   font-size: 23px;
-  font-weight: bold;
   background-image:url("../images/fibuilding.png");
 }
 
@@ -30,17 +35,15 @@ h1{
 }
 
 .banner p{
-  line-height:85%;
+  line-height:72%;
 }
 
 h2{
   font-size: 32px;
-  font-weight: bold;
 }
 
 h3{
   font-size: 23px;
-  font-weight: bold;
 }
 
 h4{
