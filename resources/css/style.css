@@ -1,21 +1,63 @@
 body{
   font-family: Helvetica,sans-serif;
   text-align: center;
+  min-width: 600px;
+}
+
+.banner a, h1, .banner2, footer a, footer{
+  color: white;
 }
 
 h1{
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
 .banner{
-  background-image: url('../fibuilding.png');
-  background-size: cover;
+  background-image:url("../images/fibuilding.png");
+  height: 297px;
+
 }
 
-li{
-  list-style: none;
-  line-height: 2;
-  color: white;
+.banner2{
+  font-size: 23px;
+  font-weight: bold;
+  background-image:url("../images/fibuilding.png");
+}
+
+.banner a{
+  font-size: 18px;
+}
+
+.banner p{
+  line-height:85%;
+}
+
+h2{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+h4{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer{
+  background-color: dimgray;
+
+}
+
+footer{
+  text-align: left;
+  font-size: 11px;
+}
+
+footer a{
+  font-size: 18px;
 }
